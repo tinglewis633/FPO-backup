@@ -1,8 +1,8 @@
 name: Backup Firestore
 
-cron:
+on:
     schedule:
-        - cron: 20 * * * *
+        - cron: '25 * * * *'
 
 env:
     PROJECT_ID: firepermitonline
